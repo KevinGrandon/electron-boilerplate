@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron Boilerplate</title>
+    <style>
+    * {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    </style>
+    <script>
+      // install babel hooks in the renderer process
+      require('babel-register')
+      require('./components/index')
+    </script>
+  </head>
+  <body>
+    <div id="replaceme"></div>
+  </body>
+</html>
