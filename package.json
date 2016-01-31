@@ -18,6 +18,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-3": "^6.3.13",
     "babel-register": "^6.4.3",
+    "css-loader": "^0.23.1",
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
     "react": "^0.14.6",

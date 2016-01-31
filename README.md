@@ -1,6 +1,6 @@
-# Electron Boilerplate
-
 [![Dependency Status](https://david-dm.org/KevinGrandon/electron-boilerplate.svg)](https://david-dm.org/KevinGrandon/electron-boilerplate)
+
+# Electron Boilerplate
 
 ## Development
 
