@@ -2,6 +2,13 @@
 
 # Electron Boilerplate
 
+## Current Implementation
+
+* UI written with React.
+* Scoped styles with CSS Modules.
+* Webpack with hot reloading.
+* Babel for modern syntax and transpilation.
+
 ## Development
 
 Clone the repository
