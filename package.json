@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npm run start-dev-server | npm run start-electron",
     "start-electron": "./node_modules/.bin/electron .",
-    "start-dev-server": "./node_modules/.bin/webpack-dev-server --inline --hot --progress --colors --port 8080 --config config/webpack.development.config.js"
+    "start-dev-server": "./node_modules/.bin/webpack-dev-server --inline --hot --progress --colors --port 8080 --config config/webpack.development.config.js",
+    "build-production": "NODE_ENV=production webpack -p --config config/webpack.production.config.js"
   },
   "devDependencies": {
     "electron-prebuilt": "^0.36.5"
